@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="instaclone.Views.ItemsPage"
+             xmlns:local="clr-namespace:instaclone.ViewModels"  
+             xmlns:model="clr-namespace:instaclone.Models"  
+             x:Name="BrowseItemsPage">
+    <!--
+      x:DataType enables compiled bindings for better performance and compile time validation of binding expressions.
+      https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/data-binding/compiled-bindings
+    -->
+    <StackLayout Padding="0,150,0,0">
+        <Image Source="https://i.pinimg.com/originals/31/a5/2c/31a52c10510246e334cbcbfc936cee8d.jpg" HeightRequest="150"/>
+        <Label Text="Miggy" TextColor="Black" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"/>
+    </StackLayout>
+</ContentPage>

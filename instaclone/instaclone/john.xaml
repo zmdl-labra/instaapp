@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="instaclone.john">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <Grid>
+                <Button Text="Back" CornerRadius="100" Clicked="Button_Clicked" HorizontalOptions="Start" BackgroundColor="Transparent" TextColor="Black"/>
+                <Label Text="JOHN" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" Padding="0,15,0,0"/>
+            </Grid>
+            <StackLayout Padding="0,50,0,0">
+                <Frame CornerRadius="100"
+                   HeightRequest="100"
+                   WidthRequest="100"
+                   HorizontalOptions="Center"
+                   Padding="0">
+                    <Image Source="https://www.incimages.com/uploaded_files/image/1920x1080/getty_481292845_77896.jpg"
+                       Aspect="AspectFill"/>
+                </Frame>
+                <Label Text="greatness is not on how rich you are but in how you act as person"
+                       Margin="30"
+                   TextColor="Black"
+                   FontSize="Subtitle" FontAttributes="Italic,Bold" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
